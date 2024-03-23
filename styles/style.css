@@ -1,0 +1,40 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: url('/assets/bg.png') center center;
+    background-size: cover;
+    height: 420px;
+}
+
+header img, #menu img {
+    width: 128px;
+    height: 128px;
+}
+
+header img:hover, #menu img:hover {
+    scale: 1.1;
+    transition: all .2s;
+}
+
+#menu img:hover {
+    transform: rotate(-2deg);
+}
+
+.modal-items {
+    width: 90%;
+}
+
+#cart-items {
+    max-height: 400px;
+}
+
+@media (min-width: 990px) {
+    .modal-items {
+        width: 600px;
+    }
+    .drink-title {
+        margin-left: 15%;
+    }
+}
